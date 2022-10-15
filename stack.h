@@ -21,7 +21,10 @@ public:
 
 template <typename T>
 Stack<T> :: Stack() : std::vector<T>(){
+}
 
+template <typename T>
+Stack<T> :: ~Stack(){
 }
 
 template <typename T>
@@ -56,7 +59,7 @@ const T& Stack<T> :: top() const{
         throw std::underflow_error("Unable to obtain top from empty list");
     }
     else{
-        std::vector<T>::back();
+        return std::vector<T>::back();
     }
 }
 
