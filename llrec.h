@@ -101,9 +101,6 @@ Node* llfilter(Node* head, Comp pred)
      // head = tempN; 
       return temp;
    }
-  
-
-   
    return nullptr;
   }
   
