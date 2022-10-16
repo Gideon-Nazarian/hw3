@@ -46,7 +46,7 @@ void Stack<T> :: push(const T& item){
 template <typename T>
 void Stack<T> :: pop(){
     if(std::vector<T>::empty()){
-        throw std::underflow_error("Unable to pop from empty list");
+        throw std::underflow_error("Unable to pop from empty stack");
     }
     else{
         std::vector<T>::pop_back();
@@ -56,7 +56,7 @@ void Stack<T> :: pop(){
 template <typename T>
 const T& Stack<T> :: top() const{
     if(std::vector<T>::empty()){
-        throw std::underflow_error("Unable to obtain top from empty list");
+        throw std::underflow_error("Unable to obtain top from empty stack");
     }
     else{
         return std::vector<T>::back();
