@@ -1,3 +1,6 @@
 llrec-test1.in
 stack_test.cpp
 p1test.cpp
+myHeapTest.cpp
+heap_test/*
+list
