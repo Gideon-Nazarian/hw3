@@ -18,6 +18,9 @@ llrec-test.o: llrec-test.cpp llrec.h
 llrec.o: llrec.cpp 
 	$(CXX) $(CXXFLAGS) -o $@ -c llrec.cpp
 
+valgrind: llrec-test
+	$(VALGRIND) ./llrec-test
+
 clean:
 	rm -f *.o rh llrec-test *~
 

@@ -1,4 +1,4 @@
-llrec-test1.in
+
 stack_test.cpp
 p1test.cpp
 myHeapTest.cpp
@@ -6,11 +6,3 @@ heap_test/*
 list
 logicsim/Makefile
 logicsim/plantuml.jar
-logicsim/and.png
-logicsim/or.png
-logicsim/not.png
-logicsim/exclusive_or.png
-logicsim/single_and.txt
-logicsim/single_not.txt
-logicsim/single_or.txt
-logicsim/exclusive_or.txt
